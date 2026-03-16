@@ -1,0 +1,15 @@
+{
+  "name": "unityexch",
+  "version": "1.0.0",
+  "description": "Unity Exchange Betting Platform",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "npm install --prefix client && npm run build --prefix client",
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "postinstall": "npm run build"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
