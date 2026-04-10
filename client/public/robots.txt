@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://uniityexch.com/sitemap.xml
+Sitemap: https://unity-exch.in/sitemap.xml
